@@ -1,65 +1,65 @@
-# 可用于电子电路设计的AI prompt
-# AI prompt for electronic circuit design
-# 電子回路設計のためのAIプロンプト
-# Подсказка ИИ для проектирования электронных схем
+# 基于AI的电路设计方法及其系统（专利已提交）
+
+中国发明专利申请号：2025xxxxxxxxxx（2025.11.22提交，国家知识产权局）
+US Provisional Application Filed（申请号待补）
+
+本仓库公开完整专利说明书+权利要求书+核心代码，实现从自然语言需求到带闭环验证SPICE网表的端到端AI电路设计（电气/继电器/电子全覆盖）。
+
+专利权归发明人个人所有 | 核心代码MIT协议开源 | 欢迎star & 商业合作/独占许可
+
+# AI-Based Circuit Design Method and System (Patent Filed)
+
+Chinese Invention Patent Application No.: 2025xxxxxxxxxx (Filed November 22, 2025, State Intellectual Property Office)
+
+US Provisional Application Filed (Application No. Pending)
+
+This repository discloses the complete patent specification, claims, and core code, realizing end-to-end AI circuit design (covering electrical/relay/electronic aspects) from natural language requirements to closed-loop verification SPICE netlists.
+
+Patent rights belong to the inventor | Core code is open-source under the MIT license | Stars and commercial collaborations/exclusive licenses are welcome.
 
 
-可用于电子电路设计的AI prompt
-这里有5个文件。
-5个文件作为5个system prompt分别装载到AI上。
-输入需求给“需求说明工程师1”，
-将“需求说明工程师1”的输出输入给“需求说明工程师2”，
-将“需求说明工程师2”的输出输入给“需求说明工程师3”，
-将“需求说明工程师3”的输出输入给“低压电路设计”，
-“低压电路设计” AI将输出可用的SPICE 网表。使用SPICE Vision软件对SPICE网表进行可视化，可直接画出电子电路图。
+# Метод и система проектирования схем на основе ИИ (Патент подан)
+
+Заявка на патент на изобретение в Китае № 2025xxxxxxxxxx (подана 22 ноября 2025 г. в Государственное ведомство интеллектуальной собственности)
+
+Предварительная заявка в США подана (заявка № ожидающая рассмотрения)
+
+В этом репозитории раскрыты полное описание патента, формула изобретения и основной код, реализующие сквозное проектирование схем на основе ИИ (включая электрические, релейные и электронные аспекты), от требований к естественному языку до списков соединений SPICE для верификации в замкнутом контуре.
+
+Патентные права принадлежат изобретателю | Основной код открыт по лицензии MIT | Приветствуются звёзды и коммерческое сотрудничество/исключительные лицензии.
 
 
-An AI prompt for electronic circuit design:
+# AIベースの回路設計方法およびシステム（特許出願済み）
 
-There are 5 files here.
+中国発明特許出願番号：2025xxxxxxxxxx（2025年11月22日出願、国家知識産権局）
 
-These 5 files are loaded into the AI ​​as 5 system prompts.
+米国仮出願出願済み（出願番号：出願中）
 
-Input requirements to "Requirements Engineer 1".
+このリポジトリは、完全な特許明細書、請求項、およびコアコードを公開しており、自然言語要件から閉ループ検証SPICEネットリストまで、エンドツーエンドのAI回路設計（電気／リレー／電子的側面を網羅）を実現します。
 
-Input the output of "Requirements Engineer 1" to "Requirements Engineer 2".
-
-Input the output of "Requirements Engineer 2" to "Requirements Engineer 3".
-
-Input the output of "Requirements Engineer 3" to "Low-Voltage Circuit Design".
-
-The "Low-Voltage Circuit Design" AI will output a usable SPICE netlist. Use SPICE Vision software to visualize the SPICE netlist and directly draw the electronic circuit diagram.
+特許権は発明者に帰属します｜コアコードはMITライセンスに基づくオープンソースです｜スターや商用コラボレーション／独占ライセンスを歓迎します。
 
 
-電子回路設計用のAIプロンプト：
+# KI-basiertes Schaltungsdesignverfahren und -system (Patent angemeldet)
 
-ここには5つのファイルがあります。
+Chinesische Patentanmeldung Nr.: 2025xxxxxxxxxx (eingereicht am 22. November 2025 beim Staatlichen Amt für geistiges Eigentum)
 
-これらの5つのファイルは、5つのシステムプロンプトとしてAIに読み込まれます。
+US-Patentanmeldung eingereicht (Anmeldenummer anhängig)
 
-「要件エンジニア1」に要件を入力します。
+Dieses Repository enthält die vollständige Patentschrift, die Patentansprüche und den Kerncode für ein durchgängiges KI-basiertes Schaltungsdesign (einschließlich elektrischer, Relais- und elektronischer Aspekte) – von den Anforderungen in natürlicher Sprache bis hin zu den SPICE-Netzlisten für die geschlossene Regelschleife.
 
-「要件エンジニア1」の出力を「要件エンジニア2」に入力します。
-
-「要件エンジニア2」の出力を「要件エンジニア3」に入力します。
-
-「要件エンジニア3」の出力を「低電圧回路設計」に入力します。
-
-「低電圧回路設計」AIは、使用可能なSPICEネットリストを出力します。SPICE Visionソフトウェアを使用してSPICEネットリストを視覚化し、電子回路図を直接描画できます。
+Die Patentrechte liegen beim Erfinder. | Der Kerncode ist Open Source und unter der MIT-Lizenz verfügbar. | Kooperationen und exklusive Lizenzen sind willkommen.
 
 
-Запрос ИИ для проектирования электронных схем:
+# Méthode et système de conception de circuits basés sur l'IA (Brevet déposé)
 
-Здесь 5 файлов.
+Demande de brevet d'invention chinoise n° 2025xxxxxxxxxx (Déposée le 22 novembre 2025 auprès de l'Office national de la propriété intellectuelle)
 
-Эти 5 файлов загружаются в ИИ как 5 системных запросов.
+Demande provisoire américaine déposée (N° de demande en cours d'examen)
 
-Введите требования к "Инженеру по требованиям 1".
+Ce dépôt contient le descriptif complet du brevet, les revendications et le code source, permettant la conception de circuits d'IA de bout en bout (aspects électriques, relais et électroniques), depuis la saisie des exigences en langage naturel jusqu'aux netlists SPICE de vérification en boucle fermée.
 
-Введите выходные данные "Инженера по требованиям 1" к "Инженеру по требованиям 2".
-
-Введите выходные данные "Инженера по требованиям 2" к "Инженеру по требованиям 3".
-
+Les droits de brevet appartiennent à l'inventeur. Le code source est open source sous licence MIT. Les contributions et les collaborations commerciales, ainsi que les licences exclusives, sont les bienvenues.
 Введите выходные данные "Инженера по требованиям 3" к "Проектированию низковольтных схем".
 
 ИИ "Проектирование низковольтных схем" выведет пригодный для использования список соединений SPICE. Используйте программу SPICE Vision для визуализации списка соединений SPICE и непосредственного построения схемы электронной схемы.
